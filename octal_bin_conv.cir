@@ -1,0 +1,41 @@
+* C:\Users\sutha\Desktop\octal_bin_conv\octal_bin_conv.cir
+
+* EESchema Netlist Version 1.1 (Spice format) creation date: 05/15/21 21:28:54
+
+* To exclude a component from the Spice Netlist add [Spice_Netlist_Enabled] user FIELD set to: N
+* To reorder the component spice node sequence add [Spice_Node_Sequence] user FIELD and define sequence: 2,1,0
+
+* Sheet Name: /
+U9  Net-_U8-Pad11_ Net-_U14-Pad1_ Net-_U15-Pad1_ d_or		
+U10  Net-_U10-Pad1_ Net-_U10-Pad2_ Net-_U10-Pad3_ d_or		
+U15  Net-_U15-Pad1_ Net-_U10-Pad3_ Net-_U15-Pad3_ d_or		
+U11  Net-_U11-Pad1_ Net-_U11-Pad2_ Net-_U11-Pad3_ d_or		
+U12  Net-_U10-Pad1_ Net-_U10-Pad2_ Net-_U12-Pad3_ d_or		
+U16  Net-_U11-Pad3_ Net-_U12-Pad3_ Net-_U16-Pad3_ d_or		
+U13  Net-_U13-Pad1_ Net-_U11-Pad2_ Net-_U13-Pad3_ d_or		
+U14  Net-_U14-Pad1_ Net-_U10-Pad2_ Net-_U14-Pad3_ d_or		
+U17  Net-_U13-Pad3_ Net-_U14-Pad3_ Net-_U17-Pad3_ d_or		
+U18  Net-_U15-Pad3_ Net-_U16-Pad3_ Net-_U17-Pad3_ Y2 Y1 Y0 dac_bridge_3		
+U8  D1 D2 D3 D4 D5 D6 D7 Net-_U13-Pad1_ Net-_U11-Pad1_ Net-_U11-Pad2_ Net-_U8-Pad11_ Net-_U14-Pad1_ Net-_U10-Pad1_ Net-_U10-Pad2_ adc_bridge_7		
+v1  D1 GND DC		
+v2  D2 GND DC		
+v3  D3 GND DC		
+v4  D4 GND DC		
+v5  D5 GND DC		
+v6  D6 GND DC		
+v7  D7 GND DC		
+R1  Y2 GND 100		
+R3  Y1 GND 100		
+R2  Y0 GND 100		
+U19  Y0 plot_v1		
+U21  Y1 plot_v1		
+U20  Y2 plot_v1		
+U7  D7 plot_v1		
+U6  D6 plot_v1		
+U5  D5 plot_v1		
+U4  D4 plot_v1		
+U3  D3 plot_v1		
+U2  D2 plot_v1		
+U1  D1 plot_v1		
+
+.end
